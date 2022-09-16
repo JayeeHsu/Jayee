@@ -1,0 +1,25 @@
+{
+  "name": "jayee",
+  "version": "1.0.0",
+  "description": "JayeeHsu",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm install jayee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JayeeHsu/Jayee.git"
+  },
+  "keywords": [
+    "jayee",
+    "component",
+    "docs",
+    "debuger"
+  ],
+  "author": "JayeeHsu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JayeeHsu/Jayee/issues"
+  },
+  "homepage": "https://github.com/JayeeHsu/Jayee#readme"
+}
