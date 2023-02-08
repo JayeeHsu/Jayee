@@ -21,5 +21,22 @@
   "bugs": {
     "url": "https://github.com/JayeeHsu/Jayee/issues"
   },
-  "homepage": "https://github.com/JayeeHsu/Jayee#readme"
+  "homepage": "https://github.com/JayeeHsu/Jayee#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.19",
+    "eslint": "^8.33.0",
+    "tsup": "^6.5.0",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.1",
+    "vite-plugin-inspect": "^0.7.15",
+    "vitepress": "1.0.0-alpha.45",
+    "vitest": "^0.28.4"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search"
+      ]
+    }
+  }
 }
