@@ -1,5 +1,5 @@
 {
-  "name": "jayee",
+  "name": "@jayee/vite-plugin-vitepress",
   "version": "1.0.1",
   "description": "JayeeHsu",
   "main": "index.js",
