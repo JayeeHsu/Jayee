@@ -4,7 +4,10 @@
   "description": "JayeeHsu",
   "main": "index.js",
   "scripts": {
-    "test": "npm install jayee"
+    "test": "vitest -u",
+    "dev:example": "vite dev example",
+    "build:example": "vite build example",
+    "preview:example": "vite build preview example"
   },
   "repository": {
     "type": "git",
@@ -14,7 +17,8 @@
     "jayee",
     "component",
     "docs",
-    "debuger"
+    "debuger",
+    "vite-plugin"
   ],
   "author": "JayeeHsu",
   "license": "ISC",
@@ -24,13 +28,15 @@
   "homepage": "https://github.com/JayeeHsu/Jayee#readme",
   "devDependencies": {
     "@types/node": "^18.11.19",
+    "@vitejs/plugin-vue": "^4.0.0",
     "eslint": "^8.33.0",
     "tsup": "^6.5.0",
     "typescript": "^4.9.5",
     "vite": "^4.1.1",
     "vite-plugin-inspect": "^0.7.15",
     "vitepress": "1.0.0-alpha.45",
-    "vitest": "^0.28.4"
+    "vitest": "^0.28.4",
+    "vue": "^3.2.47"
   },
   "pnpm": {
     "peerDependencyRules": {
